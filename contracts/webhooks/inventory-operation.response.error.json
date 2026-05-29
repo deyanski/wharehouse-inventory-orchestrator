@@ -1,0 +1,16 @@
+[
+  {
+    "success": false,
+    "error": {
+      "code": "INSUFFICIENT_STOCK",
+      "message": "Not enough quantity available for outbound operation.",
+      "details": {
+        "inventoryId": "af71002a-3f83-4ea1-8404-7c0fa5b7ebc8",
+        "item_name": "Widget A",
+        "requestedQuantity": 5,
+        "availableQuantity": 45,
+        "operation": "outbound"
+      }
+    }
+  }
+]

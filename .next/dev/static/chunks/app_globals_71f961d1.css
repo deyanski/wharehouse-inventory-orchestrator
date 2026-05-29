@@ -1,0 +1,136 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --bg: #eef2e7;
+  --fg: #1f2a20;
+  --panel: #f8f7f2;
+  --accent: #a3432d;
+  --muted: #5f6d61;
+  --ring: #1f2a20;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: radial-gradient(circle at top left, #f8f7f2 0%, var(--bg) 50%);
+  color: var(--fg);
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+.shell {
+  place-items: center;
+  min-height: 100vh;
+  padding: 3rem 1.25rem;
+  display: grid;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid #d8d8cf;
+  width: min(720px, 100%);
+  padding: 2rem;
+  box-shadow: 10px 10px #d6ccbc;
+}
+
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin: 0 0 .5rem;
+  font-size: .8rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.lede {
+  color: var(--muted);
+  margin-top: 1rem;
+  line-height: 1.55;
+}
+
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .9rem;
+  margin-top: 1.5rem;
+  display: grid;
+}
+
+label {
+  color: var(--muted);
+  gap: .45rem;
+  font-size: .9rem;
+  display: grid;
+}
+
+input, select, button {
+  color: var(--fg);
+  font: inherit;
+  background: #fff;
+  border: 1px solid #c8c7bf;
+  padding: .55rem .65rem;
+}
+
+input:focus, select:focus, button:focus {
+  outline: 2px solid var(--ring);
+  outline-offset: 1px;
+}
+
+.actions {
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 1.3rem;
+  display: flex;
+}
+
+.primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.secondary {
+  background: #f1eee6;
+}
+
+button[disabled] {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.status {
+  background: #f3efe6;
+  border-left: 4px solid #d8a16b;
+  margin-top: .95rem;
+  padding: .65rem;
+}
+
+.low-stock-list {
+  border-top: 1px dashed #ccc6b7;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+}
+
+.low-stock-list h2 {
+  margin: 0 0 .5rem;
+  font-size: 1.15rem;
+}
+
+.low-stock-list ul {
+  gap: .4rem;
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+}
+
+.empty {
+  color: var(--muted);
+}
+
+/*# sourceMappingURL=app_globals_71f961d1.css.map*/

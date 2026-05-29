@@ -1,0 +1,11 @@
+[
+  {
+    "success": true,
+    "operation": "inbound",
+    "item_name": "Widget A",
+    "previousStock": 7,
+    "quantityProcessed": 20,
+    "newStock": 27,
+    "alerts": []
+  }
+]

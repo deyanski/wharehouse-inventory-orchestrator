@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://globallogistics.local/schemas/inventory-health.response.schema.json",
+  "title": "InventoryHealthCheckResponse",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["success", "lowStockItems"],
+      "properties": {
+        "success": {
+          "type": "boolean",
+          "const": true
+        },
+        "lowStockItems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "itemname",
+              "category",
+              "stocklevel",
+              "reorderpoint"
+            ],
+            "properties": {
+              "itemname": {
+                "type": "string",
+                "minLength": 1
+              },
+              "category": {
+                "type": "string",
+                "minLength": 1
+              },
+              "stocklevel": {
+                "type": "number"
+              },
+              "reorderpoint": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "V1 Main Inventory Workflow (Placeholder)",
+  "active": false,
+  "nodes": [
+    {
+      "id": "Webhook_InboundOutbound",
+      "name": "Webhook Inbound/Outbound",
+      "type": "n8n-nodes-base.webhook",
+      "notes": "Accept inventory operation payload from Next.js API"
+    },
+    {
+      "id": "Validate_Request",
+      "name": "Validate Request",
+      "type": "n8n-nodes-base.if",
+      "notes": "Validate required fields and operation type"
+    },
+    {
+      "id": "Process_Inventory_Operation",
+      "name": "Process Inventory Operation",
+      "type": "n8n-nodes-base.supabase",
+      "notes": "Update stock and insert order log atomically"
+    },
+    {
+      "id": "Respond_SuccessOrError",
+      "name": "Respond Success or Error",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "notes": "Return normalized V1 contract payload"
+    }
+  ],
+  "connections": {},
+  "meta": {
+    "status": "placeholder",
+    "contractPath": "contracts/webhooks"
+  }
+}

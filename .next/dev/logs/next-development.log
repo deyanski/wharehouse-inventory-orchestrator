@@ -1,0 +1,56 @@
+[00:00:02.850] Server  LOG     ✓ Ready in 2s
+[00:00:37.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:59.256] Server  LOG       Reload env: .env.local
+[00:41:31.305] Server  LOG       Reload env: .env.local
+[00:45:09.531] Server  LOG       Reload env: .env.local
+[00:45:14.604] Server  LOG     ✓ Compiled in 326ms
+[00:45:50.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:09.746] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:17.268] Server  LOG     ✓ Compiled in 90ms
+[01:20:40.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:25.732] Server  LOG     ✓ Compiled in 138ms
+[01:23:13.262] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:13.468] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:16.131] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:17.652] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:18.939] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:22.350] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:23.777] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:23:25.495] Server  ERROR   ⨯ Error: Missing required environment variable: NEXT_PUBLIC_SUPABASE_URL
+[01:24:42.571] Server  LOG     ✓ Compiled in 34ms
+[01:25:26.640] Server  LOG       Reload env: .env.local
+[01:26:01.052] Server  LOG       Reload env: .env.local
+[01:27:55.875] Server  LOG       Reload env: .env.local
+[01:28:04.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:09.927] Server  LOG     ✓ Compiled in 67ms
+[02:01:42.857] Server  LOG       Reload env: .env.local
+[02:02:04.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:05:13.064] Server  LOG       Reload env: .env.local
+[02:05:20.912] Server  LOG     ✓ Compiled in 32ms
+[02:07:23.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:13:42.432] Server  LOG     ✓ Compiled in 34ms
+[02:16:09.301] Server  LOG     ✓ Compiled in 33ms
+[02:21:43.887] Server  LOG     ✓ Compiled in 42ms
+[02:22:19.654] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:24.789] Server  LOG       Reload env: .env.local
+[02:23:30.170] Server  LOG       Reload env: .env.local
+[02:23:34.691] Server  LOG       Reload env: .env.local
+[02:36:53.575] Server  LOG     ✓ Compiled in 44ms
+[02:43:13.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:44:30.814] Server  LOG       Reload env: .env.local
+[02:44:36.929] Server  LOG       Reload env: .env.local
+[02:44:40.415] Server  LOG       Reload env: .env.local
+[02:47:18.515] Server  LOG     ✓ Compiled in 29ms
+[02:47:43.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:48:31.548] Server  LOG     ✓ Compiled in 41ms
+[02:49:02.643] Server  LOG     ✓ Compiled in 28ms
+[02:49:36.487] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:51:58.431] Server  LOG     ✓ Compiled in 25ms
+[03:14:53.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:17:07.679] Server  LOG     ✓ Compiled in 50ms
+[03:18:50.112] Server  LOG     ✓ Compiled in 37ms
+[03:20:05.040] Server  LOG     ✓ Compiled in 31ms
+[03:21:46.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:25:04.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:26:03.880] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:27:19.512] Server  LOG     ✓ Compiled in 29ms

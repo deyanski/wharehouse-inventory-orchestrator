@@ -1,0 +1,10 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/inventory/health/route": "/api/inventory/health",
+  "/api/inventory/inbound/route": "/api/inventory/inbound",
+  "/api/inventory/items/route": "/api/inventory/items",
+  "/api/inventory/low-stock/route": "/api/inventory/low-stock",
+  "/api/inventory/outbound/route": "/api/inventory/outbound",
+  "/page": "/"
+}

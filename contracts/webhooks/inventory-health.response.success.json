@@ -1,0 +1,27 @@
+[
+  {
+    "data": {
+      "success": true,
+      "lowStockItems": [
+        {
+          "itemname": "Widget A",
+          "category": "Electronics",
+          "stocklevel": 7,
+          "reorderpoint": 10
+        },
+        {
+          "itemname": "Packing Tape XL",
+          "category": "Packaging",
+          "stocklevel": 12,
+          "reorderpoint": 20
+        },
+        {
+          "itemname": "Barcode Scanner Pro",
+          "category": "Hardware",
+          "stocklevel": 3,
+          "reorderpoint": 8
+        }
+      ]
+    }
+  }
+]

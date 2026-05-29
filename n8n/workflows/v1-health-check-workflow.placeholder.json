@@ -1,0 +1,29 @@
+{
+  "name": "V1 Health Check Workflow (Placeholder)",
+  "active": false,
+  "nodes": [
+    {
+      "id": "Webhook_HealthCheck",
+      "name": "Webhook Health Check",
+      "type": "n8n-nodes-base.webhook",
+      "notes": "Accept health-check request"
+    },
+    {
+      "id": "Fetch_Low_Stock_Items",
+      "name": "Fetch Low Stock Items",
+      "type": "n8n-nodes-base.supabase",
+      "notes": "Query inventory where stock_level < reorder_point"
+    },
+    {
+      "id": "Respond_Health_Status",
+      "name": "Respond Health Status",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "notes": "Return summary and low-stock items"
+    }
+  ],
+  "connections": {},
+  "meta": {
+    "status": "placeholder",
+    "contractPath": "contracts/webhooks"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "requestId": "5ec25a97-9c8d-4d2a-b4f0-7f5f9c3e1212",
+  "timestamp": "2026-05-29T12:00:00.000Z",
+  "operation": "outbound",
+  "inventoryId": "9a734809-47e3-4df7-8bc2-c8f34d6fb1c2",
+  "itemName": "Widget A",
+  "category": "Electronics",
+  "quantity": 20,
+  "price": 49.99,
+  "supplierEmail": "supplier@example.com",
+  "meta": {
+    "source": "dashboard",
+    "correlationId": "corr_01J0TESTABC123"
+  }
+}
