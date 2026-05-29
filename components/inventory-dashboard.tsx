@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import { N8nChatPanel } from '@/components/n8n-chat-panel';
 
 type Operation = 'inbound' | 'outbound';
 
@@ -424,7 +425,8 @@ export function InventoryDashboard() {
 
   return (
     <main className="shell">
-      <section className="panel">
+      <div className="layout">
+        <section className="panel operations-panel">
         <p className="eyebrow">GlobalLogistics Corp.</p>
         <h1>Warehouse Operations</h1>
         <p className="lede">
@@ -566,7 +568,10 @@ export function InventoryDashboard() {
             </ul>
           )}
         </div>
-      </section>
+        </section>
+
+        <N8nChatPanel />
+      </div>
     </main>
   );
 }
