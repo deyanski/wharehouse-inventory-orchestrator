@@ -1,7 +1,0 @@
-{
-  "/api/inventory/inbound/route": "app/api/inventory/inbound/route.js",
-  "/api/inventory/items/route": "app/api/inventory/items/route.js",
-  "/api/inventory/low-stock/route": "app/api/inventory/low-stock/route.js",
-  "/api/inventory/outbound/route": "app/api/inventory/outbound/route.js",
-  "/page": "app/page.js"
-}
